@@ -64,3 +64,166 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body {
+    width: 90%;
+    margin: 20px 80px;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	}
+
+a {
+	margin: 25px;
+	color: gray;
+	text-decoration: none;
+}	
+
+.logo {
+	margin: 0 60px 0 0;
+}
+
+
+.content {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+.imgbar {
+	display: flex;
+	justify-content: space-evenly;	
+}
+
+.top-box {
+	display: flex;
+	border-top: 1px solid black;
+	padding: 50px 0 0 0;
+}
+
+.bottom-box {
+	display: flex;
+}
+
+.main1 {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: 0 0 0 110px;
+	align-items: center;
+	}
+		
+
+h1 {
+	font-size: 90px;
+	text-align: center;	
+}
+
+
+.main {
+	margin: 50px 110px 40px 0;
+}
+	
+.middle-box img {
+	width: 100%;
+}
+
+.middle-img {
+	margin: 30px 0 
+}
+
+.bottom-box {
+	border-top: 1px solid black;
+	padding: 50px 0 0 0;
+}
+
+.contact {
+	padding: 20px 0 0 0;
+}
+
+.address {
+	padding: 5px 0;
+}
+
+.number {
+	padding: 10px 0;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+
+.button {
+	font-family: inherit;
+	font-size: 20px;
+	background-color: white;
+	border: 1px solid black;
+	width: auto;
+}
+
+/* Services CSS Starts Here */
+
+.box-container {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 40px 0 30px 0;
+}
+
+.box-container div {
+	width: 400px;
+	border: 1px solid black;
+	padding: 20px;
+	background-color: lightgray;
+	
+}
+
+.facts  {
+	display: flex;
+	padding: 40px 0 0 0;
+	border-top: 1px solid black;
+}
+
+
+footer {
+	text-align: center;
+	padding: 20px 0;
+}
+
+.facts h2 {
+	width: 400px;
+}
+
+.facts p {
+	padding: 0 50px 0 0;
+}
+
+.facts img {
+	padding: 0 400px 0 0;
+}
+
+ul {
+	list-style-type: square;
+	padding: 20px 0 0 20px;
+}
+
+.services-header-img {
+	padding: 20px 0;
+}
+
+.button2 {
+	font-family: inherit;
+	font-size: 15px;
+	background-color: white;
+	border: 1px solid black;
+	width: 130px;
+}
+
+.services {
+	border-bottom: 1px solid black;
+	padding: 0 0 40px 0;
+}
