@@ -172,6 +172,7 @@ footer {
 	display: flex;
 	flex-wrap: wrap;
 	padding: 40px 0 30px 0;
+	justify-content: space-between;
 }
 
 .box-container div {
@@ -179,6 +180,8 @@ footer {
 	border: 1px solid black;
 	padding: 20px;
 	background-color: lightgray;
+	margin-bottom: 20px;
+
 	
 }
 
@@ -209,6 +212,7 @@ footer {
 ul {
 	list-style-type: square;
 	padding: 20px 0 0 20px;
+	
 }
 
 .services-header-img {
@@ -226,4 +230,9 @@ ul {
 .services {
 	border-bottom: 1px solid black;
 	padding: 0 0 40px 0;
+	
+}
+
+li {
+	margin-bottom: 10px;
 }
